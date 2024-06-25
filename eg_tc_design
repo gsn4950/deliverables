@@ -1,0 +1,23 @@
+Error guessing is a software testing technique where the tester uses experience and intuition to identify areas of the software that are likely to contain errors. The tester "guesses" the problematic areas based on past experiences, common errors, and knowledge of the application.
+
+### Steps in Error Guessing:
+
+1. **Identify Error-Prone Areas**: Based on past projects, domain knowledge, and the application's complexity.
+2. **Create Test Cases**: Devise test cases that target these areas.
+3. **Execute Tests**: Run the tests and observe the results.
+4. **Log Defects**: Record any defects found during testing.
+
+### Example:
+
+Imagine testing a login form with the following fields:
+- Username
+- Password
+
+**Common Error-Guessing Scenarios:**
+- **Empty fields**: Leave username and password empty.
+- **Invalid inputs**: Enter special characters or long strings.
+- **SQL injection**: Try entering SQL commands to test for vulnerabilities.
+- **Boundary values**: Use maximum and minimum allowed lengths for username and password.
+- **Incorrect credentials**: Use wrong username/password combinations.
+
+By focusing on these scenarios, testers can uncover defects that might not be identified through more formal testing techniques.
